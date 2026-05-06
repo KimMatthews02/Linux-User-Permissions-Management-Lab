@@ -31,4 +31,25 @@ A development team called **engineering** is configured with controlled access t
 
 ## Project Structure
 
+linux-user-permissions-lab/
+│
+├── README.md
+├── scripts/
+│ ├── setup_users.sh
+│ ├── setup_groups.sh
+│ ├── configure_permissions.sh
+│ ├── sudo_config.sh
+│
+├── screenshots/
+│ ├── users_created.png
+│ ├── group_setup.png
+│ ├── permissions_validation.png
+│ ├── setgid_test.png
+│ ├── sudo_test.png
+│
+├── logs/
+│ ├── audit.log
+│
+└── docs/
+├── troubleshooting.md
 
