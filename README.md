@@ -34,22 +34,23 @@ A development team called **engineering** is configured with controlled access t
 linux-user-permissions-lab/
 │
 ├── README.md
-├── scripts/
-│ ├── setup_users.sh
-│ ├── setup_groups.sh
-│ ├── configure_permissions.sh
-│ ├── sudo_config.sh
-│
 ├── screenshots/
-│ ├── users_created.png
-│ ├── group_setup.png
-│ ├── permissions_validation.png
-│ ├── setgid_test.png
-│ ├── sudo_test.png
+│   ├── users_created.png
+│   ├── group_setup.png
+│   ├── permissions_before_after.png
+│   ├── setgid_validation.png
+│   ├── sudo_access_test.png
+│
+├── scripts/
+│   ├── setup_users.sh
+│   ├── setup_groups.sh
+│   ├── configure_permissions.sh
+│   ├── sudo_config.sh
 │
 ├── logs/
-│ ├── audit.log
+│   ├── user_creation.log
+│   ├── permission_changes.log
 │
-└── docs/
-├── troubleshooting.md
-
+└── notes/
+    ├── troubleshooting_guide.md
+    ├── commands_reference.md
